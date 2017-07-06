@@ -1,0 +1,36 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 40px;
+	max-width: 1170px;
+}
+
+.header__logo a {
+	font-size: 2em;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.header__menu {
+	width: 60%;
+}
+
+.header__menu-list {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	a {
+		display: block;
+		padding: 10px;
+		background: red;
+		color: #f2f2f2;
+		text-decoration: none;
+		&:hover {
+			color: #000;
+			background: orange;
+		}
+	}
+}

@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+  max-width: 1170px;
+}
+
+.header__logo a {
+  font-size: 2em;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.header__menu {
+  width: 60%;
+}
+
+.header__menu-list {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu-list a {
+  display: block;
+  padding: 10px;
+  background: red;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.header__menu-list a:hover {
+  color: #000;
+  background: orange;
+}
+
+.home h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.home p {
+  font-size: 1.8em;
+  color: green;
+}
+
+.home__menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+.home__menu-list li {
+  padding: 30px;
+}
+.home__menu-list li a {
+  width: 100px;
+  text-align: center;
+  color: red;
+  display: block;
+  padding: 10px;
+  background: grey;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+.home__menu-list li a:hover {
+  background: #fff;
+}
+
+.formuls {
+  padding-top: 20px;
+  background: #eee;
+}
+
+.sum-to {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border-bottom: 2px solid #000;
+}
+.sum-to h2 {
+  font-size: 1.5em;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.sum-to label {
+  color: purple;
+  font-size: 1.3em;
+}
+.sum-to input {
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+.sum-to button {
+  margin-left: 20px;
+  padding: 10px;
+  outline: 0;
+}
+.sum-to p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: brown;
+  padding-bottom: 20px;
+}
+.sum-to p span {
+  font-size: 1.3em;
+  margin-left: 90px;
+  color: fuchsia;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body {
+  width: 100%;
+  font-family: 'Droid Sans', sans-serif;
+  background: #e9e9e9;
+}
+
+main {
+  max-width: 1170px;
+  margin: 0 auto;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PRACTIC jaerbi</title>
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="header__logo">
+			<a href="index.html" class="logo__top">LOGO</a>
+		</div>
+		<nav class="header__menu">
+			<ul class="header__menu-list">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>
+				<li>
+					<a href="#">About US</a>
+				</li>
+				<li>
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="home">
+			<h1>Hello jaerbi World!!</h1>
+			<p>Go to play a little GAME</p>
+			<nav class="home__menu">
+				<ul class="home__menu-list">
+					<li><a href="#go-sum-to">1</a></li>
+					<li><a href="#go-factorial">2</a></li>
+					<li><a href="#go-fibonacci">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="formuls">
+			<!-- Go Sum TO -->
+			<div id="go-sum-to" class="sum-to">
+				<h2>Рахуємо суму всіх чисел від 1 до вашого числа (n) ЦИКЛ</h2>
+				<label for="sumTo">Ведіть число для обрахунку :</label>
+				<input id="sumTo" type="number" name="sum-to" placeholder="ваше число">
+				<button id="btn-sum-to" type="submit">Порахувати</button><br>
+				<p class="result">Результат даної функції : <span></span></p>
+			</div>
+			<!-- FACTORIAL -->
+			<div id="go-factorial" class="sum-to">
+				<h2>Рахуємо факторіал числа n! = n * (n - 1) * (n - 2) * ...*1 РЕКУРСІЯ</h2>
+				<label for="goFac">Ведіть число для обрахунку :</label>
+				<input id="goFac" type="number" name="goFac" placeholder="ваше число">
+				<button id="btn-goFac" type="submit">Порахувати</button><br>
+				<p class="result">Результат даної функції : <span></span></p>
+			</div>
+			<!-- Fibonacci -->
+			<div id="go-fibonacci" class="sum-to">
+				<h2>Рахуємо число Фібоначі Fn = Fn-1 + Fn-2 Цикл</h2>
+				<label for="goFib1">Ведіть число для обрахунку :</label>
+				<input id="goFib1" type="number" name="goFib1" placeholder="ваше число">
+				<button id="btn-goFib1" type="submit">Порахувати</button><br>
+				<p class="result">Результат даної функції : <span></span></p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+	
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
